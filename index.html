@@ -6,9 +6,43 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Form Builder</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <form action="get" id="form" class="form">
+    <h1 class="form__title">Sign Up For My Web App</h1>
+    <fieldset class="fieldset">
+      <div class="field-wrapper field-wrapper--icon fieldset__field-wrapper">
+        <i class="fa fa-user field-wrapper__icon" aria-hidden="true"></i>
+        <input type="text" class="field-wrapper__input" placeholder="First Name">
+      </div>
+      <div class="field-wrapper field-wrapper--icon fieldset__field-wrapper">
+        <i class="fa fa-user field-wrapper__icon" aria-hidden="true"></i>
+        <input type="text" class="field-wrapper__input" placeholder="First Name">
+      </div>
+      <div class="field-wrapper fieldset__field-wrapper">
+        <select class="field-wrapper__select">
+          <option class="field-wrapper__option" value="value1">Value 1</option>
+        </select>
+      </div>
+      <div class="field-wrapper field-wrapper--icon fieldset__field-wrapper">
+        <i class="fa fa-user field-wrapper__icon" aria-hidden="true"></i>
+        <textarea name="" id="" cols="30" rows="10" class="field-wrapper__textarea"></textarea>
+      </div>
+      <div class="field-wrapper field-wrapper--icon fieldset__field-wrapper">
+        <i class="fa fa-user field-wrapper__icon" aria-hidden="true"></i>
+        <input type="text" class="field-wrapper__input" placeholder="First Name">
+      </div>
+      <div class="field-wrapper field-wrapper--icon fieldset__field-wrapper">
+        <i class="fa fa-user field-wrapper__icon" aria-hidden="true"></i>
+        <input type="text" class="field-wrapper__input" placeholder="First Name">
+      </div>
+    </fieldset>
+    <fieldset class="submit">
+      <button class="submit__button">Submit Form</button>
+    </fieldset>
+  </form>
   <script src="main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
